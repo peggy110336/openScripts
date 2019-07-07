@@ -4,8 +4,9 @@
 
       img.setAttribute("class", "hidden");
       iframe.setAttribute("class", "shown");
-      iframe.src += "?autoplay=1";
-      img.preventDefault();
+      //iframe.src += "?autoplay=1";
+      iframe.click();
+      //img.preventDefault();
   
     }
 
